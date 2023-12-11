@@ -7,11 +7,11 @@ def menu():
     
     #display the menu
     print("\nWelcome to the Contact Management system. What would you like to do?")
-    print ("1) Add a contact")
-    print("2) Modify a contact")
-    print("3) Display a contact")
-    print ("4) Display all contacts")
-    print ("5) Delete a contact")
+    print ("1) Add contact")
+    print("2) Search contact")
+    print("3) Edit contact")
+    print ("4) Delete Contact")
+    print ("5) Display all Contacts")
     print("6) Exit")
         
     #prompt the user for a choice
