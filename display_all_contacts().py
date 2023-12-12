@@ -17,13 +17,19 @@ def display_all_contacts():
         #strip the newline
         name = name.rstrip('\n')
         street_address = street_address.rstrip('\n')
+        phone_number = phone_number.rstrip('\n')
+        email_address = email_address.rstrip('\n')
 
         print("\nName:", name)
-        print("Quantity (in pounds):", pounds)
+        print("\nStreet Address:", street_address)
+        print("\nPhone Number:", phone_number)
+        print("\nEmail Address:", email_address)
+        print()
 
-        #get the new description
-        desc = contact_file.readline()
+        #get the next name
+        name = contact_file.readline()
 
     #close the file and output to the user
     contact_file.close()
     print("\nAll records retrieved.")
+    
