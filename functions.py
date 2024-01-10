@@ -53,7 +53,7 @@ def menu():
     #return choice
     return int(choice)
 
-def add_contacts():
+def add_contact():
     #add_contacts accepts no arguments
     #it opens the file contacts.txt and appends a new contacts to it
     #it loops while the user wants to continue entering records
