@@ -14,12 +14,12 @@ def start():
         start()
         
     if choice == 3:
-        functions.edit_contact()
+        functions.edit_contacts()
         print ('')
         start()
         
     if choice == 4:
-        functions.delete_contact()
+        functions.delete_contacts()
         print ('')
         start()
         
